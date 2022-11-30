@@ -1,0 +1,33 @@
+.account-page {
+  min-height: 50vh;
+  a {
+    color: rgb(47, 198, 212);
+  }
+  .intro {
+    border-bottom: solid 1px rgb(42, 176, 200);
+  }
+  .icon {
+    color: rgb(42, 162, 198);
+  }
+  .name {
+    color: rgb(32, 167, 195);
+  }
+  &-menu {
+    &-item {
+      &.active,
+      &:hover,
+      &:active {
+        & > * {
+          color: #87ccee;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .account-page {
+    min-height: 100vh;
+  }
+}

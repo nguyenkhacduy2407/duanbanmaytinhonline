@@ -1,0 +1,21 @@
+.Product-Desc {
+  border-radius: 8px;
+
+  .desc-detail {
+    white-space: pre-wrap;
+  }
+
+  .hide-desc {
+    max-height: 500px;
+    overflow-y: hidden;
+  }
+
+  .see-more,
+  .see-more > * {
+    color: #4fbadd;
+    &:hover {
+      color:  #4fbadd;
+      transform: scale(1.05);
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.Result-Search {
+  .sort-wrapper {
+    border-bottom: solid 1px #dadada;
+  }
+  .sort {
+    flex-wrap: wrap;
+  }
+  .sort-btn-active {
+    border: solid 1px #2da2d1;
+    color: #fff;
+    background-color: #2a9bd4;
+    transition: all 0.25s;
+  }
+  .price-search-btn {
+    background-color: #2f9fd6;
+    color: #fff;
+  }
+  .not-found-product {
+    width: 200px;
+    height: 200px;
+  }
+  &-list {
+    min-height: 50vh;
+  }
+}
